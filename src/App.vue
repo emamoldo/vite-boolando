@@ -1,199 +1,36 @@
 <script>
-// js page
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
+
+export default {
+  name: 'App',
+
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter,
+  }
+}
 </script>
 
 
 <template>
-  <!-- html page -->
 
   <body>
     <!--  Page Header  -->
-    <header>
-      <div class="list">
-        <div class="left_menu">
-          <div>Uomo</div>
-          <div>Donna</div>
-          <div>Bambini</div>
-        </div>
-
-        <img class="logo" src="./assets/img/boolean-logo.png" alt="">
-
-        <div class="right_menu">
-          <div>
-            <i class="fa-regular fa-user"></i>
-          </div>
-
-          <div>
-            <i class="fa-regular fa-heart"></i>
-          </div>
-
-          <div>
-            <i class="fas fa-shopping-bag"></i>
-          </div>
-        </div>
-
-      </div>
-    </header>
+    <AppHeader />
     <!-- /Page Header  -->
 
     <!--  Site Main  -->
-    <div class="top_container">
-      <ul class="relaxed_fit">
-        <li>
-          <img class="photo" src="./assets/img/1.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/1b.webp" alt="">
-            <p>Levi's</p>
-            <strong>RELAXED FIT TEE UNISEX</strong>
-            <span class="discount_price">14.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-
-          <div class="text">
-            <p>Levi's</p>
-            <strong>RELAXED FIT TEE UNISEX</strong>
-            <span class="discount_price">14.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="roses_tee">
-        <li>
-          <img class="photo" src="./assets/img/2.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/2b.webp" alt="">
-            <p>Guess</p>
-            <strong>ROSES TEE</strong>
-            <span class="discount_price">20.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-
-          <div class="text">
-            <p>Guess</p>
-            <strong>ROSES TEE</strong>
-            <span class="discount_price">20.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="sugar">
-        <li>
-          <img class="photo" src="./assets/img/3.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/3b.webp" alt="">
-            <p>Come Zucchero Filato</p>
-            <strong>VOGLIA DI COLORI PASTELLO</strong>
-            <span class="discount_price">129.99€ <span class="normal_price">184.99€</span></span>
-          </div>
-
-          <div class="text">
-            <p>Come Zucchero Filato</p>
-            <strong>VOGLIA DI COLORI PASTELLO</strong>
-            <span class="discount_price">129.99€ <span class="normal_price">184.99€</span></span>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="bottom_container">
-      <ul class="tee_unisex">
-        <li>
-          <img class="photo" src="./assets/img/4.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/4b.webp" alt="">
-            <p>Levi's</p>
-            <strong>TEE UNISEX</strong>
-            <span class="discount_price">14.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-
-          <div class="text">
-            <p>Levi's</p>
-            <strong>TEE UNISEX</strong>
-            <span class="discount_price">14.99€ <span class="normal_price">29.99€</span></span>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="stripe">
-        <li>
-          <img class="photo" src="./assets/img/5.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/5b.webp" alt="">
-            <p>Maya Deluxe</p>
-            <strong>STRIPE BODICE</strong>
-            <span class="discount_price">99.99€</span>
-          </div>
-
-          <div class="text">
-            <p>Maya Deluxe</p>
-            <strong>STRIPE BODICE</strong>
-            <span class="discount_price">99.99€</span>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="maglione">
-        <li>
-          <img class="photo" src="./assets/img/6.webp" alt="">
-
-          <div class="hover1">
-            <img class="photo" src="./assets/img/6b.webp" alt="">
-            <p>Esprit</p>
-            <strong>MAGLIONE - NERO</strong>
-            <span class="discount_price">29.99€</span>
-          </div>
-
-          <div class="text">
-            <p>Esprit</p>
-            <strong>MAGLIONE - NERO</strong>
-            <span class="discount_price">29.99€</span>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <AppMain />
     <!-- /Site Main  -->
 
     <!--  Site Footer -->
-    <footer>
-      <div class="footer">
-        <h2>Booleando S.r.l.</h2>
-        <div class="text_footer">
-          <p>Informazioni Legali</p>
-          <p>Informativa sulla privacy</p>
-          <p>Diritto di recesso</p>
-        </div>
-      </div>
-
-      <div class="right">
-        <h4>Trovaci su</h4>
-        <a href="#">
-          <i class="fab fa-twitter fa-xs"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-facebook fa-xs"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-instagram fa-xs"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-pinterest fa-xs"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-youtube fa-xs"></i>
-        </a>
-      </div>
-
-    </footer>
+    <AppFooter />
     <!-- /Site Footer -->
   </body>
 </template>
-
-
-
-
 
 <style>
 /* css page */
