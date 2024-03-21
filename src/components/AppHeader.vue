@@ -35,4 +35,37 @@ export default {
     <!-- /Page Header  -->
 </template>
 
-<style></style>
+<style>
+/* Site Header */
+.list {
+    max-width: 1920px;
+    height: 70px;
+    background-color: var(--bool-header);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left_menu,
+.right_menu {
+    display: flex;
+    color: var(--bool-header-text);
+    gap: 2rem;
+}
+
+.left_menu {
+    margin-left: 10rem;
+}
+
+.right_menu {
+    margin-right: 10rem;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    width: 150px;
+}
+
+/* /Site Header */
+</style>

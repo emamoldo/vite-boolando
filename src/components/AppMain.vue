@@ -126,4 +126,39 @@ export default {
     <!-- /Site Main  -->
 </template>
 
-<style></style>
+<style>
+/* Site Main */
+.top_container,
+.bottom_container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+.photo {
+    height: 400px;
+    width: auto;
+    padding-top: 3rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount_price {
+    color: var(--bool-disc-text);
+}
+
+.normal_price {
+    color: black;
+}
+
+/* /Site Main */
+</style>

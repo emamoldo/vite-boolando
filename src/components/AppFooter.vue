@@ -39,4 +39,42 @@ export default {
     <!-- /Site Footer -->
 </template>
 
-<style></style>
+<style>
+/* Footer Page */
+footer {
+    margin-top: 2rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bool-footer);
+    gap: 70rem;
+}
+
+.footer {
+    margin: 0;
+    margin-left: 10rem;
+    color: var(--bool-header-text);
+    display: flex;
+    flex-direction: column;
+}
+
+.text_footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.right {
+    color: var(--bool-header-text);
+}
+
+.hover1 {
+    display: none;
+}
+
+:hover+.hover1 {
+    display: block;
+
+}
+
+/* /Site Footer */
+</style>
