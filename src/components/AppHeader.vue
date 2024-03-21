@@ -35,12 +35,17 @@ export default {
     <!-- /Page Header  -->
 </template>
 
-<style>
+<style lang="scss">
 /* Site Header */
+
+// Color Palette
+$header: #ff6900;
+$header-text: #ffffff;
+
 .list {
     max-width: 1920px;
     height: 70px;
-    background-color: var(--bool-header);
+    background-color: $header;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,7 +54,7 @@ export default {
 .left_menu,
 .right_menu {
     display: flex;
-    color: var(--bool-header-text);
+    color: $header-text;
     gap: 2rem;
 }
 

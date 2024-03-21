@@ -39,21 +39,27 @@ export default {
     <!-- /Site Footer -->
 </template>
 
-<style>
+<style lang="scss">
 /* Footer Page */
+
+// Color Palette
+$footer: #1b1b1a;
+$header-text: #ffffff;
+
+
 footer {
     margin-top: 2rem;
     height: 100px;
     display: flex;
     align-items: center;
-    background-color: var(--bool-footer);
+    background-color: $footer;
     gap: 70rem;
 }
 
 .footer {
     margin: 0;
     margin-left: 10rem;
-    color: var(--bool-header-text);
+    color: $header-text;
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +70,7 @@ footer {
 }
 
 .right {
-    color: var(--bool-header-text);
+    color: $header-text;
 }
 
 .hover1 {

@@ -32,23 +32,11 @@ export default {
 </template>
 
 <style>
-/* css page */
+/* Css page */
 * {
   margin: 0;
   padding: 0;
 }
-
-/* Color Palette */
-:root {
-  --bool-header: #ff6900;
-  --bool-backg-photo: #eeefee;
-  --bool-footer: #1b1b1a;
-  --bool-header-text: #ffffff;
-  --bool-sost-text: #018100;
-  --bool-disc-text: #fe0100;
-}
-
-
 
 /* Site Header */
 
@@ -63,5 +51,7 @@ export default {
 
 
 /*  Footer Page */
+
 /* /Site Footer */
+/* /Css Page */
 </style>

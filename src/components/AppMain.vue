@@ -126,8 +126,12 @@ export default {
     <!-- /Site Main  -->
 </template>
 
-<style>
+<style lang="scss">
 /* Site Main */
+
+// Color Palette
+$discount-text: #fe0100;
+
 .top_container,
 .bottom_container {
     width: 1000px;
@@ -153,7 +157,7 @@ ul {
 }
 
 .discount_price {
-    color: var(--bool-disc-text);
+    color: $discount-text;
 }
 
 .normal_price {
