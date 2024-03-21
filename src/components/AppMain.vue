@@ -138,31 +138,32 @@ $discount-text: #fe0100;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
+
+    ul {
+        list-style: none;
+    }
+
+    .photo {
+        height: 400px;
+        width: auto;
+        padding-top: 3rem;
+
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discount_price {
+        color: $discount-text;
+    }
+
+    .normal_price {
+        color: black;
+    }
 }
 
-ul {
-    list-style: none;
-}
-
-.photo {
-    height: 400px;
-    width: auto;
-    padding-top: 3rem;
-
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-}
-
-.discount_price {
-    color: $discount-text;
-}
-
-.normal_price {
-    color: black;
-}
 
 /* /Site Main */
 </style>

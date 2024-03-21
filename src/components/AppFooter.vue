@@ -54,23 +54,23 @@ footer {
     align-items: center;
     background-color: $footer;
     gap: 70rem;
-}
 
-.footer {
-    margin: 0;
-    margin-left: 10rem;
-    color: $header-text;
-    display: flex;
-    flex-direction: column;
-}
+    .footer {
+        margin: 0;
+        margin-left: 10rem;
+        color: $header-text;
+        display: flex;
+        flex-direction: column;
+    }
 
-.text_footer {
-    display: flex;
-    gap: 1rem;
-}
+    .text_footer {
+        display: flex;
+        gap: 1rem;
+    }
 
-.right {
-    color: $header-text;
+    .right {
+        color: $header-text;
+    }
 }
 
 .hover1 {

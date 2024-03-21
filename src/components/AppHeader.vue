@@ -49,27 +49,27 @@ $header-text: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
-.left_menu,
-.right_menu {
-    display: flex;
-    color: $header-text;
-    gap: 2rem;
-}
+    .left_menu,
+    .right_menu {
+        display: flex;
+        color: $header-text;
+        gap: 2rem;
+    }
 
-.left_menu {
-    margin-left: 10rem;
-}
+    .left_menu {
+        margin-left: 10rem;
+    }
 
-.right_menu {
-    margin-right: 10rem;
-}
+    .right_menu {
+        margin-right: 10rem;
+    }
 
-.logo {
-    display: flex;
-    align-self: center;
-    width: 150px;
+    .logo {
+        display: flex;
+        align-self: center;
+        width: 150px;
+    }
 }
 
 /* /Site Header */

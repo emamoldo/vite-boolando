@@ -37,21 +37,4 @@ export default {
   margin: 0;
   padding: 0;
 }
-
-/* Site Header */
-
-/* /Site Header */
-
-
-
-/* Site Main */
-
-/* /Site Main */
-
-
-
-/*  Footer Page */
-
-/* /Site Footer */
-/* /Css Page */
 </style>
